@@ -1,0 +1,12 @@
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\bin\Debug\Telefon_Rehberi.exe.config
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\bin\Debug\Telefon_Rehberi.exe
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\bin\Debug\Telefon_Rehberi.pdb
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.csprojResolveAssemblyReference.cache
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.AddContactForm.resources
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.MainForm.resources
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.ListContactForm.resources
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.Properties.Resources.resources
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.csproj.GenerateResource.cache
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.csproj.CoreCompileInputs.cache
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.exe
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.pdb
