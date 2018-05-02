@@ -27,5 +27,11 @@ Ekleme yaptıktan sonra listelemede aşağıdaki gibi gözükecektir.
 
 ### Güncellemeler
 
+**2 Mayıs 2018**
+* `Menü` tasarımı yeniden düzenlendi.
+* `Simge` renkleri beyaza dönüştürüldü.
+* `Kayıt Silme` butonu eklendi. Henüz silme işlemi yapmıyor.
+* `Uygulama İsmi` düzenlendi. `Telefon Rehbeeri` --> `Telefon Rehberi`
+
 **19 Mart 2018**
-* `Telefon_Rehberi.exe` eklendi. 
+* `Telefon_Rehberi.exe` eklendi.
