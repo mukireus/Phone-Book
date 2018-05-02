@@ -12,7 +12,7 @@ Klasörünün içerisinde bulunan `Setup.exe` ile kurulum yapabilirsiniz.
 Eklemek için `Kayıt Ekleme` tıklayınız.
 Listelemek için `Kayıt Listeleme` tıklayınız.
 
-![Telefon Rehberi Menü](https://github.com/mukireus/Phone-Book/blob/master/screens/menu.JPG)
+![Telefon Rehberi Menü](https://github.com/mukireus/Phone-Book/blob/master/screens/Version%201.1/menu.JPG)
 
 #### Kayıt Ekleme
 Eklemek istediğiniz kişinin bilgilerini girdikten sonra yan panelde bulunan renk butonlarından bir renk seçiniz.
