@@ -27,6 +27,10 @@ Ekleme yaptıktan sonra listelemede aşağıdaki gibi gözükecektir.
 
 ### Güncellemeler
 
+**7 Mayıs 2018**
+* `Kayıt Silme` tasarımı oluşturuldu.
+* `Ara` ve `Sil` butonları oluşturuldu.
+
 **2 Mayıs 2018**
 * `Menü` tasarımı yeniden düzenlendi.
 * `Simge` renkleri beyaza dönüştürüldü.
