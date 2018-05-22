@@ -19,10 +19,6 @@ namespace Telefon_Rehberi
             InitializeComponent();
         }
 
-        private string renkName;
-        private string renkSurname;
-        private string renkNumber;
-
         private void btnBack_Click(object sender, EventArgs e)
         {
             MainForm openForm = new MainForm();
@@ -36,10 +32,7 @@ namespace Telefon_Rehberi
             //Eğer herhangi bir bilgi boş bırakılmış ise uyarı mesajı gösterilecek.
             if (string.IsNullOrEmpty(txtName.Text) ||
                string.IsNullOrEmpty(txtSurname.Text) ||
-               string.IsNullOrEmpty(txtPhoneNumber.Text) ||
-                (!(rdNameRed.Checked) && !(rdNameBlue.Checked) && !(rdNameGreen.Checked)) ||
-                (!(rdSurnameRed.Checked) && !(rdSurnameBlue.Checked) && !(rdSurnameGreen.Checked)) ||
-                (!(rdPhoneNumberRed.Checked) && !(rdPhoneNumberBlue.Checked) && !(rdPhoneNumberGreen.Checked)))
+               string.IsNullOrEmpty(txtPhoneNumber.Text))
             {
                 MessageBox.Show("Lütfen tüm bilgileri doldurunuz.");
             }
@@ -47,9 +40,6 @@ namespace Telefon_Rehberi
             else
             {
                 StreamWriter dosya = File.AppendText("veriler.txt");
-                dosya.Write(renkName);
-                dosya.Write(renkSurname);
-                dosya.Write(renkNumber + " ");
                 dosya.Write(txtName.Text + " ");
                 dosya.Write(txtSurname.Text + " ");
                 dosya.WriteLine(txtPhoneNumber.Text);
@@ -75,11 +65,6 @@ namespace Telefon_Rehberi
             {
                 e.Handled = true;
             }
-            //Eğer girilen space tuşu ise girilmeyecek.
-            if (e.KeyChar == (char)Keys.Space)
-            {
-                e.Handled = true;
-            }
         }
 
         private void txtSurname_KeyPress(object sender, KeyPressEventArgs e)
@@ -96,16 +81,6 @@ namespace Telefon_Rehberi
             }
         }
 
-        private void txtPhoneNumber_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            //Eğer girilen harf ise harf basılmayacak Backspace tuşu dışında.
-            char ch = e.KeyChar;
-            if (!Char.IsDigit(ch) && ch != 8)
-            {
-                e.Handled = true;
-            }
-        }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             foreach (Control nesne in this.Controls)
@@ -115,54 +90,14 @@ namespace Telefon_Rehberi
             }
         }
 
-        private void rdNameRed_CheckedChanged(object sender, EventArgs e)
-        {
-            renkName = "k";
-        }
-
-        private void rdNameBlue_CheckedChanged(object sender, EventArgs e)
-        {
-            renkName = "m";
-        }
-
-        private void rdNameGreen_CheckedChanged(object sender, EventArgs e)
-        {
-            renkName = "y";
-        }
-
-        private void rdSurnameRed_CheckedChanged(object sender, EventArgs e)
-        {
-            renkSurname = "k";
-        }
-
-        private void rdSurnameBlue_CheckedChanged(object sender, EventArgs e)
-        {
-            renkSurname = "m";
-        }
-
-        private void rdSurnameGreen_CheckedChanged(object sender, EventArgs e)
-        {
-            renkSurname = "y";
-        }
-
-        private void rdPhoneNumberRed_CheckedChanged(object sender, EventArgs e)
-        {
-            renkNumber = "k";
-        }
-
-        private void rdPhoneNumberBlue_CheckedChanged(object sender, EventArgs e)
-        {
-            renkNumber = "m";
-        }
-
-        private void rdPhoneNumberGreen_CheckedChanged(object sender, EventArgs e)
-        {
-            renkNumber = "y";
-        }
-
         private void AddContactForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Yapım aşamasında...");
         }
     }
 }

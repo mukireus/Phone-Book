@@ -10,3 +10,4 @@ D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon
 D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.csproj.CoreCompileInputs.cache
 D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.exe
 D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.pdb
+D:\Dökümanlar\Bilgisayar Mühendisliği\Uygulamalarım\Telefon Rehberi\Telefon_Rehberi\obj\Debug\Telefon_Rehberi.DeleteContactForm.resources

@@ -54,6 +54,12 @@
     <Compile Include="AddContactForm.Designer.cs">
       <DependentUpon>AddContactForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeleteContactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteContactForm.Designer.cs">
+      <DependentUpon>DeleteContactForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddContactForm.resx">
       <DependentUpon>AddContactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteContactForm.resx">
+      <DependentUpon>DeleteContactForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -111,6 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phoneBook.ico" />
+    <None Include="Resources\Background 2,.jpg" />
+    <None Include="Resources\ListContacts.png" />
+    <None Include="Resources\Info.PNG" />
+    <None Include="Resources\DeleteContacts.png" />
+    <None Include="Resources\AddContacts.png" />
+    <None Include="Resources\pinkDeleteContacts.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

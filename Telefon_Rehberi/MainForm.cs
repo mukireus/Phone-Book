@@ -33,8 +33,20 @@ namespace Telefon_Rehberi
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Telefon Rehberi" + "\n" + "Bu uygulama Muhammet ÖMER tarafından yapılmıştır." + "\n" + "Versiyon: 1.0");
+            MessageBox.Show("Telefon Rehberi" + "\n" + "Bu uygulama Muhammet ÖMER tarafından yapılmıştır." + "\n" + "Versiyon: 2.0");
         }
 
+        private void btnDeleteContact_Click(object sender, EventArgs e)
+        {
+            //DeleteContactForm openForm = new DeleteContactForm();
+            //openForm.Show();
+            //this.Hide();
+            MessageBox.Show("Yapım Aşamasındadır." + "\n" + "En kısa zamanda yeni versiyon ile kullanılabilir olacaktır.");
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
