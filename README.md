@@ -26,6 +26,8 @@ Ekleme yaptıktan sonra listelemede aşağıdaki gibi gözükecektir.
 ![Telefon Rehberi Menü](https://github.com/mukireus/Phone-Book/blob/master/screens/Version%202.0/listContact.JPG)
 
 ### Güncellemeler
+**22 Mayıs 2018**
+* `Versiyon 2.0` dosyaları eklendi.
 
 **19 Mayıs 2018 Versiyon 2.0**
 * `Kayıt Listeleme` tasarımı oluşturuldu.
